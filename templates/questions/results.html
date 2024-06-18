@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模擬試験結果</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            font-size: 2em;
+        }
+        .container {
+            padding: 2em;
+            height: calc(100% - 80px); /* headerの高さ分を引く */
+            overflow-y: scroll;
+        }
+        .result {
+            margin-bottom: 1.5em;
+        }
+        .result p {
+            font-size: 1.2em;
+        }
+        .explanation {
+            color: red;
+            font-size: 0.9em;
+        }
+        .back-button {
+            display: block;
+            margin: 2em auto;
+            padding: 0.5em 2em;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 1.2em;
+        }
+        .back-button:hover {
+            background-color: #45a049;
+        }
+        .chart-container {
+            width: 100%;
+            max-width: 1200px; /* Increase the max-width */
+            height: 600px; /* Set a larger fixed height */
+            margin: 2em auto;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>模擬試験結果</header>
+    <div class="container">
+        {% for result in results %}
+            <div class="result">
+                <p>{{ forloop.counter }}. {{ result.question_text }}</p>
+                <p>あなたの回答: {{ result.user_answer }}</p>
+                <p>正しい答え: {{ result.correct_answer }}</p>
+                <p class="explanation">解説: {{ result.explanation }}</p>
+            </div>
+        {% endfor %}
+        <a href="{% url 'questions:dashboard' %}" class="back-button">ダッシュボードに戻る</a>
+        <div class="chart-container">
+            <canvas id="scoreChart"></canvas>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const ctx = document.getElementById('scoreChart').getContext('2d');
+            const scores = JSON.parse('{{ scores|escapejs }}');
+            const categories = JSON.parse('{{ categories|escapejs }}');
+            const labels = Array.from({length: scores.length}, (_, i) => `テスト ${i + 1}`);
+
+            const datasets = categories.map((category, index) => {
+                const data = scores.map(score => score[category] || 0);
+                const backgroundColor = `rgba(${75 + index * 20}, ${192 - index * 20}, ${192 + index * 20}, 0.2)`;
+                const borderColor = `rgba(${75 + index * 20}, ${192 - index * 20}, ${192 + index * 20}, 1)`;
+                return {
+                    label: category,
+                    data: data,
+                    backgroundColor: backgroundColor,
+                    borderColor: borderColor,
+                    borderWidth: 1
+                };
+            });
+
+            const data = {
+                labels: labels,
+                datasets: datasets
+            };
+
+            const config = {
+                type: 'bar',
+                data: data,
+                options: {
+                    scales: {
+                        x: {
+                            stacked: true
+                        },
+                        y: {
+                            stacked: true,
+                            beginAtZero: true,
+                            max: 30
+                        }
+                    }
+                }
+            };
+            new Chart(ctx, config);
+        });
+    </script>
+</body>
+</html>

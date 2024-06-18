@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ja\n"
+
+msgid "Username"
+msgstr "ユーザー名"
+
+msgid "Password"
+msgstr "パスワード"
+
+msgid "Login"
+msgstr "ログイン"
+
+msgid "Forgot your password?"
+msgstr "パスワードを忘れましたか？"
+
+msgid "Don't have an account? Sign up"
+msgstr "アカウントをお持ちでないですか？ 登録する"

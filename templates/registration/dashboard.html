@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<div class="overlay"></div>
+<div class="content-wrapper">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full text-center">
+        <h2 class="text-3xl font-bold mb-6">こんにちは、{{ user.username }}さん</h2>
+        <div class="flex flex-col space-y-4">
+            <a href="{% url 'questions:mock_exam' %}" class="button bg-red-500 text-white text-2xl py-4 px-8 rounded-lg">模擬試験を受ける</a>
+            <a href="{% url 'questions:results' %}" class="button bg-blue-500 text-white text-2xl py-4 px-8 rounded-lg">過去の結果を見る</a>
+            <a href="{% url 'questions:review_mistakes' %}" class="button bg-green-500 text-white text-2xl py-4 px-8 rounded-lg">間違えた問題を復習する</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

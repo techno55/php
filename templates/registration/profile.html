@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h2>プロフィールページ</h2>
+  <p>ユーザー情報...</p>
+  <form method="post" action="{% url 'questions:logout' %}">
+    {% csrf_token %}
+    <button type="submit">ログアウト</button>
+  </form>
+{% endblock %}

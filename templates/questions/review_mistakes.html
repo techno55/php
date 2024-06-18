@@ -1,0 +1,20 @@
+{% extends "base_generic.html" %}
+{% block content %}
+<div class="overlay"></div>
+<div class="content-wrapper">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-md w-full text-center">
+        <h2 class="text-3xl font-bold mb-6">間違いを確認する</h2>
+        <p class="text-2xl mb-4">以下はあなたの間違った回答です:</p>
+        <ul class="text-left">
+            {% for mistake in mistakes %}
+            <li class="mb-2">
+                <strong>{{ forloop.counter }}. {{ mistake.question_text }}</strong><br>
+                あなたの回答: <span class="text-red-500">{{ mistake.user_answer }}</span><br>
+                正しい答え: <span class="text-green-500">{{ mistake.correct_answer }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'questions:dashboard' %}" class="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">ダッシュボードに戻る</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning History</title>
+</head>
+<body>
+    <h1>Learning History</h1>
+    <ul>
+        {% for item in history %}
+            <li>
+                Question: {{ item.question.question_text }}<br>
+                Your Answer: {{ item.user_answer }}<br>
+                Correct: {{ item.is_correct }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

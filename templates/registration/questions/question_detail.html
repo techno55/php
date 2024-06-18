@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question Detail</title>
+</head>
+<body>
+    <h1>Question Detail</h1>
+    <p>{{ question.question_text }}</p>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="user_answer" placeholder="Your Answer" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

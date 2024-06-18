@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+{% load static %}
+{% block content %}
+<div class="overlay"></div>
+<div class="content-wrapper">
+    <div class="text-white py-5 text-6xl">
+        ようこそ、Smart Learningへ
+        <br>
+        英語学習アプリ <span class="highlight">No.1</span>
+    </div>
+    <a href="{% url 'questions:login' %}" class="button bg-red-500 text-white text-5xl py-4 px-8 rounded-lg">利用開始</a>
+</div>
+{% endblock %}

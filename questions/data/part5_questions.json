@@ -1,0 +1,1406 @@
+[
+    {
+        "id": 1,
+        "category": "Verb Tense and Form",
+        "question_text": "Despite the severe weather conditions, the construction crew ____ to complete the project on time.",
+        "choices": [
+            "manages",
+            "managed",
+            "managing",
+            "had managed"
+        ],
+        "correct_answer": "managed",
+        "explanation": "過去の出来事を述べているため、過去形の'managed'が正解です。他の選択肢は現在形や現在分詞、過去完了形であり、文脈に合いません。"
+    },
+    {
+        "id": 2,
+        "category": "Verb Tense and Form",
+        "question_text": "By the time the meeting started, all the participants ____ their reports.",
+        "choices": [
+            "submit",
+            "submitted",
+            "submitting",
+            "had submitted"
+        ],
+        "correct_answer": "had submitted",
+        "explanation": "過去完了形の'had submitted'が正解です。'By the time'の後には過去完了形が使われます。他の選択肢は現在形や過去形であり、文脈に合いません。"
+    },
+    {
+        "id": 3,
+        "category": "Verb Tense and Form",
+        "question_text": "If she ____ the presentation earlier, she wouldn't be so nervous now.",
+        "choices": [
+            "practices",
+            "had practiced",
+            "practiced",
+            "will practice"
+        ],
+        "correct_answer": "had practiced",
+        "explanation": "仮定法過去完了を使っているため、'had practiced'が正解です。'wouldn't be'と現在の状況を述べているため、他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 4,
+        "category": "Prepositions",
+        "question_text": "She is good ____ playing the piano.",
+        "choices": [
+            "at",
+            "on",
+            "in",
+            "of"
+        ],
+        "correct_answer": "at",
+        "explanation": "'good at'という表現が正しいです。'good on', 'good in', 'good of'は不自然な表現です。"
+    },
+    {
+        "id": 5,
+        "category": "Prepositions",
+        "question_text": "The project will be completed ____ schedule.",
+        "choices": [
+            "on",
+            "at",
+            "in",
+            "with"
+        ],
+        "correct_answer": "on",
+        "explanation": "'on schedule'は「予定通り」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 6,
+        "category": "Prepositions",
+        "question_text": "The conference was held ____ the main auditorium.",
+        "choices": [
+            "at",
+            "in",
+            "on",
+            "to"
+        ],
+        "correct_answer": "in",
+        "explanation": "'in the main auditorium'は「主ホールで」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 7,
+        "category": "Relative Pronouns",
+        "question_text": "The book ____ I borrowed was very interesting.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "which",
+        "explanation": "先行詞が物なので'relative pronoun'は'which'です。'who'と'whom'は人を指すので、'whose'は所有を表すので不適切です。"
+    },
+    {
+        "id": 8,
+        "category": "Relative Pronouns",
+        "question_text": "The woman ____ you met yesterday is my boss.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "whom",
+        "explanation": "先行詞が人なので'relative pronoun'は'whom'です。'who'は主格なので、'which'と'whose'は文脈に合いません。"
+    },
+    {
+        "id": 9,
+        "category": "Relative Pronouns",
+        "question_text": "The company ____ products are popular worldwide is expanding.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "whose",
+        "explanation": "'whose'は所有を表します。'who', 'whom', 'which'は文脈に合いません。"
+    },
+    {
+        "id": 10,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "I studied hard, ____ I passed the exam.",
+        "choices": [
+            "so",
+            "but",
+            "because",
+            "although"
+        ],
+        "correct_answer": "so",
+        "explanation": "'so'は「それで」「だから」を意味し、原因と結果を結びつけます。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 11,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "We have been friends ____ we were children.",
+        "choices": [
+            "so",
+            "but",
+            "since",
+            "although"
+        ],
+        "correct_answer": "since",
+        "explanation": "'since'は「以来」を意味し、時間を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 12,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "He will join us ____ he finishes his work.",
+        "choices": [
+            "so",
+            "but",
+            "since",
+            "after"
+        ],
+        "correct_answer": "after",
+        "explanation": "'after'は「後で」を意味し、時間の順序を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 13,
+        "category": "Adjectives and Adverbs",
+        "question_text": "She sings ____.",
+        "choices": [
+            "beautiful",
+            "beautifully",
+            "beauty",
+            "beautify"
+        ],
+        "correct_answer": "beautifully",
+        "explanation": "'sings'という動詞を修飾するのは副詞の'beautifully'です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 14,
+        "category": "Adjectives and Adverbs",
+        "question_text": "The train arrived ____.",
+        "choices": [
+            "late",
+            "lately",
+            "lateness",
+            "latefully"
+        ],
+        "correct_answer": "late",
+        "explanation": "'arrived'という動詞を修飾するのは副詞の'late'です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 15,
+        "category": "Adjectives and Adverbs",
+        "question_text": "He is a ____ speaker.",
+        "choices": [
+            "fluent",
+            "fluently",
+            "fluency",
+            "fluentness"
+        ],
+        "correct_answer": "fluent",
+        "explanation": "'speaker'という名詞を修飾するのは形容詞の'fluent'です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 16,
+        "category": "Nouns",
+        "question_text": "He has a lot of ____.",
+        "choices": [
+            "informations",
+            "information",
+            "inform",
+            "informing"
+        ],
+        "correct_answer": "information",
+        "explanation": "'information'は不可算名詞なので、複数形にはなりません。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 17,
+        "category": "Nouns",
+        "question_text": "The ____ of the project is still under discussion.",
+        "choices": [
+            "details",
+            "detailed",
+            "detail",
+            "detailing"
+        ],
+        "correct_answer": "details",
+        "explanation": "'details'は「詳細」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 18,
+        "category": "Nouns",
+        "question_text": "She has a strong ____ for success.",
+        "choices": [
+            "determines",
+            "determination",
+            "determine",
+            "determined"
+        ],
+        "correct_answer": "determination",
+        "explanation": "'determination'は「決意」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 19,
+        "category": "Pronouns",
+        "question_text": "Everyone must bring ____ own lunch.",
+        "choices": [
+            "his",
+            "her",
+            "their",
+            "our"
+        ],
+        "correct_answer": "their",
+        "explanation": "'everyone'は単数扱いですが、性別を特定しない場合には'their'が適切です。"
+    },
+    {
+        "id": 20,
+        "category": "Pronouns",
+        "question_text": "Each student must submit ____ assignment by the deadline.",
+        "choices": [
+            "his",
+            "her",
+            "their",
+            "its"
+        ],
+        "correct_answer": "their",
+        "explanation": "'each student'は単数扱いですが、性別を特定しない場合には'their'が適切です。"
+    },
+    {
+        "id": 21,
+        "category": "Pronouns",
+        "question_text": "The team members congratulated ____ on their success.",
+        "choices": [
+            "him",
+            "her",
+            "themselves",
+            "itself"
+        ],
+        "correct_answer": "themselves",
+        "explanation": "'the team members'は複数扱いなので'themselves'が適切です。"
+    },
+    {
+        "id": 22,
+        "category": "Comparatives and Superlatives",
+        "question_text": "This is the ____ car I have ever driven.",
+        "choices": [
+            "fast",
+            "faster",
+            "fastest",
+            "more fast"
+        ],
+        "correct_answer": "fastest",
+        "explanation": "'the fastest'は最上級を表し、「今まで運転した中で一番速い車」という意味になります。"
+    },
+    {
+        "id": 23,
+        "category": "Comparatives and Superlatives",
+        "question_text": "She is ____ than her sister.",
+        "choices": [
+            "tall",
+            "taller",
+            "tallest",
+            "more tall"
+        ],
+        "correct_answer": "taller",
+        "explanation": "比較級を表すためには'taller'が適切です。'more tall'は不自然な表現です。"
+    },
+    {
+        "id": 24,
+        "category": "Comparatives and Superlatives",
+        "question_text": "This problem is ____ than I thought.",
+        "choices": [
+            "difficult",
+            "more difficult",
+            "most difficult",
+            "difficulty"
+        ],
+        "correct_answer": "more difficult",
+        "explanation": "比較級を表すためには'more difficult'が適切です。'most difficult'は最上級であり、文脈に合いません。"
+    },
+    {
+        "id": 25,
+        "category": "Vocabulary",
+        "question_text": "The company will ____ a new product next month.",
+        "choices": [
+            "launch",
+            "lunch",
+            "launch",
+            "learn"
+        ],
+        "correct_answer": "launch",
+        "explanation": "'launch'は「発売する」という意味です。'lunch'は「昼食」を意味し、'learn'は「学ぶ」という意味なので文脈に合いません。"
+    },
+    {
+        "id": 26,
+        "category": "Vocabulary",
+        "question_text": "The new policy will be ____ next week.",
+        "choices": [
+            "implemented",
+            "implement",
+            "implementing",
+            "implementation"
+        ],
+        "correct_answer": "implemented",
+        "explanation": "'implemented'は「実施する」という意味です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 27,
+        "category": "Vocabulary",
+        "question_text": "She decided to ____ her resignation.",
+        "choices": [
+            "submit",
+            "submitted",
+            "submitting",
+            "submission"
+        ],
+        "correct_answer": "submit",
+        "explanation": "'submit'は「提出する」という意味です。'submitted'は過去形、'submitting'は現在分詞、'submission'は名詞であり、文脈に合いません。"
+    },
+    {
+        "id": 28,
+        "category": "Verb Tense and Form",
+        "question_text": "By the time the concert started, all the tickets ____ sold out.",
+        "choices": [
+            "were",
+            "had been",
+            "are",
+            "will be"
+        ],
+        "correct_answer": "had been",
+        "explanation": "過去完了形の'had been'が正解です。'By the time'の後には過去完了形が使われます。他の選択肢は現在形や未来形であり、文脈に合いません。"
+    },
+    {
+        "id": 29,
+        "category": "Verb Tense and Form",
+        "question_text": "If I ____ enough money, I would travel around the world.",
+        "choices": [
+            "have",
+            "had",
+            "will have",
+            "would have"
+        ],
+        "correct_answer": "had",
+        "explanation": "仮定法過去を使っているため、'had'が正解です。'would'は既に使われているので、他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 30,
+        "category": "Verb Tense and Form",
+        "question_text": "She ____ for the company for five years before she decided to leave.",
+        "choices": [
+            "worked",
+            "has worked",
+            "had worked",
+            "works"
+        ],
+        "correct_answer": "had worked",
+        "explanation": "過去完了形の'had worked'が正解です。他の選択肢は現在形や過去形であり、文脈に合いません。"
+    },
+    {
+        "id": 31,
+        "category": "Prepositions",
+        "question_text": "The meeting will be held ____ the main conference room.",
+        "choices": [
+            "at",
+            "in",
+            "on",
+            "to"
+        ],
+        "correct_answer": "in",
+        "explanation": "'in the main conference room'は「主会議室で」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 32,
+        "category": "Prepositions",
+        "question_text": "He is responsible ____ managing the team.",
+        "choices": [
+            "for",
+            "of",
+            "to",
+            "with"
+        ],
+        "correct_answer": "for",
+        "explanation": "'responsible for'は「担当している」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 33,
+        "category": "Prepositions",
+        "question_text": "The report was submitted ____ the deadline.",
+        "choices": [
+            "before",
+            "at",
+            "on",
+            "to"
+        ],
+        "correct_answer": "before",
+        "explanation": "'before the deadline'は「締め切り前に」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 34,
+        "category": "Relative Pronouns",
+        "question_text": "The person ____ car was stolen reported it to the police.",
+        "choices": [
+            "who",
+            "whom",
+            "whose",
+            "which"
+        ],
+        "correct_answer": "whose",
+        "explanation": "'whose'は所有を表します。'who', 'whom', 'which'は文脈に合いません。"
+    },
+    {
+        "id": 35,
+        "category": "Relative Pronouns",
+        "question_text": "The movie ____ we watched last night was fantastic.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "which",
+        "explanation": "先行詞が物なので'relative pronoun'は'which'です。'who'と'whom'は人を指すので、'whose'は所有を表すので不適切です。"
+    },
+    {
+        "id": 36,
+        "category": "Relative Pronouns",
+        "question_text": "The manager ____ team won the award was very proud.",
+        "choices": [
+            "who",
+            "whom",
+            "whose",
+            "which"
+        ],
+        "correct_answer": "whose",
+        "explanation": "'whose'は所有を表します。'who', 'whom', 'which'は文脈に合いません。"
+    },
+    {
+        "id": 37,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "I will call you ____ I arrive at the airport.",
+        "choices": [
+            "after",
+            "but",
+            "although",
+            "because"
+        ],
+        "correct_answer": "after",
+        "explanation": "'after'は「後で」を意味し、時間の順序を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 38,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "We can start the meeting ____ everyone arrives.",
+        "choices": [
+            "when",
+            "but",
+            "if",
+            "although"
+        ],
+        "correct_answer": "when",
+        "explanation": "'when'は「～する時」を意味し、時間を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 39,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "She is tired, ____ she will still attend the meeting.",
+        "choices": [
+            "but",
+            "so",
+            "because",
+            "although"
+        ],
+        "correct_answer": "but",
+        "explanation": "'but'は「しかし」を意味し、対比を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 40,
+        "category": "Adjectives and Adverbs",
+        "question_text": "He runs ____ fast as his brother.",
+        "choices": [
+            "as",
+            "so",
+            "very",
+            "more"
+        ],
+        "correct_answer": "as",
+        "explanation": "'as fast as'は「同じくらい速く」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 41,
+        "category": "Adjectives and Adverbs",
+        "question_text": "The movie was ____ interesting that I watched it twice.",
+        "choices": [
+            "so",
+            "such",
+            "very",
+            "too"
+        ],
+        "correct_answer": "so",
+        "explanation": "'so interesting'は「とても興味深い」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 42,
+        "category": "Adjectives and Adverbs",
+        "question_text": "She speaks English ____ than I do.",
+        "choices": [
+            "good",
+            "better",
+            "best",
+            "well"
+        ],
+        "correct_answer": "better",
+        "explanation": "比較級を表すためには'better'が適切です。'good'は形容詞、'best'は最上級、'well'は文脈に合いません。"
+    },
+    {
+        "id": 43,
+        "category": "Nouns",
+        "question_text": "The ____ of the project is confidential.",
+        "choices": [
+            "details",
+            "detailed",
+            "detail",
+            "detailing"
+        ],
+        "correct_answer": "details",
+        "explanation": "'details'は「詳細」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 44,
+        "category": "Nouns",
+        "question_text": "She has a strong ____ to succeed.",
+        "choices": [
+            "determines",
+            "determination",
+            "determine",
+            "determined"
+        ],
+        "correct_answer": "determination",
+        "explanation": "'determination'は「決意」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 45,
+        "category": "Nouns",
+        "question_text": "The ____ of the situation is unclear.",
+        "choices": [
+            "complex",
+            "complexity",
+            "complexities",
+            "complicated"
+        ],
+        "correct_answer": "complexity",
+        "explanation": "'complexity'は「複雑さ」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 46,
+        "category": "Pronouns",
+        "question_text": "Each employee must wear ____ ID badge.",
+        "choices": [
+            "his",
+            "her",
+            "their",
+            "our"
+        ],
+        "correct_answer": "their",
+        "explanation": "'each employee'は単数扱いですが、性別を特定しない場合には'their'が適切です。"
+    },
+    {
+        "id": 47,
+        "category": "Pronouns",
+        "question_text": "The students helped ____ clean the classroom.",
+        "choices": [
+            "themselves",
+            "each other",
+            "one another",
+            "all"
+        ],
+        "correct_answer": "each other",
+        "explanation": "'each other'は「お互いに」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 48,
+        "category": "Pronouns",
+        "question_text": "The cat cleaned ____ fur.",
+        "choices": [
+            "his",
+            "her",
+            "its",
+            "their"
+        ],
+        "correct_answer": "its",
+        "explanation": "'the cat'は単数扱いなので'its'が適切です。"
+    },
+    {
+        "id": 49,
+        "category": "Comparatives and Superlatives",
+        "question_text": "This is the ____ restaurant in town.",
+        "choices": [
+            "good",
+            "better",
+            "best",
+            "most good"
+        ],
+        "correct_answer": "best",
+        "explanation": "'the best'は最上級を表し、「町で一番のレストラン」という意味になります。"
+    },
+    {
+        "id": 50,
+        "category": "Comparatives and Superlatives",
+        "question_text": "She is ____ than her colleague.",
+        "choices": [
+            "intelligent",
+            "more intelligent",
+            "most intelligent",
+            "intelligently"
+        ],
+        "correct_answer": "more intelligent",
+        "explanation": "比較級を表すためには'more intelligent'が適切です。'most intelligent'は最上級であり、文脈に合いません。"
+    },
+    {
+        "id": 51,
+        "category": "Comparatives and Superlatives",
+        "question_text": "The problem is ____ than we expected.",
+        "choices": [
+            "serious",
+            "more serious",
+            "most serious",
+            "seriously"
+        ],
+        "correct_answer": "more serious",
+        "explanation": "比較級を表すためには'more serious'が適切です。'most serious'は最上級であり、文脈に合いません。"
+    },
+    {
+        "id": 52,
+        "category": "Vocabulary",
+        "question_text": "The project was ____ successfully.",
+        "choices": [
+            "completed",
+            "completes",
+            "completing",
+            "completion"
+        ],
+        "correct_answer": "completed",
+        "explanation": "'completed'は「完了する」という意味です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 53,
+        "category": "Vocabulary",
+        "question_text": "The new system will be ____ next month.",
+        "choices": [
+            "implemented",
+            "implementing",
+            "implements",
+            "implementation"
+        ],
+        "correct_answer": "implemented",
+        "explanation": "'implemented'は「実施する」という意味です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 54,
+        "category": "Relative Pronouns",
+        "question_text": "The movie ____ we watched last night was fantastic.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "which",
+        "explanation": "先行詞が物なので'relative pronoun'は'which'です。'who'と'whom'は人を指すので、'whose'は所有を表すので不適切です。"
+    },
+    {
+        "id": 55,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "I studied hard, ____ I passed the exam.",
+        "choices": [
+            "so",
+            "but",
+            "because",
+            "although"
+        ],
+        "correct_answer": "so",
+        "explanation": "'so'は「それで」「だから」を意味し、原因と結果を結びつけます。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 56,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "We have been friends ____ we were children.",
+        "choices": [
+            "so",
+            "but",
+            "since",
+            "although"
+        ],
+        "correct_answer": "since",
+        "explanation": "'since'は「以来」を意味し、時間を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 57,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "He will join us ____ he finishes his work.",
+        "choices": [
+            "so",
+            "but",
+            "since",
+            "after"
+        ],
+        "correct_answer": "after",
+        "explanation": "'after'は「後で」を意味し、時間の順序を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 58,
+        "category": "Adjectives and Adverbs",
+        "question_text": "She sings ____.",
+        "choices": [
+            "beautiful",
+            "beautifully",
+            "beauty",
+            "beautify"
+        ],
+        "correct_answer": "beautifully",
+        "explanation": "'sings'という動詞を修飾するのは副詞の'beautifully'です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 59,
+        "category": "Adjectives and Adverbs",
+        "question_text": "The train arrived ____.",
+        "choices": [
+            "late",
+            "lately",
+            "lateness",
+            "latefully"
+        ],
+        "correct_answer": "late",
+        "explanation": "'arrived'という動詞を修飾するのは副詞の'late'です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 60,
+        "category": "Adjectives and Adverbs",
+        "question_text": "He is a ____ speaker.",
+        "choices": [
+            "fluent",
+            "fluently",
+            "fluency",
+            "fluentness"
+        ],
+        "correct_answer": "fluent",
+        "explanation": "'speaker'という名詞を修飾するのは形容詞の'fluent'です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 61,
+        "category": "Nouns",
+        "question_text": "He has a lot of ____.",
+        "choices": [
+            "informations",
+            "information",
+            "inform",
+            "informing"
+        ],
+        "correct_answer": "information",
+        "explanation": "'information'は不可算名詞なので、複数形にはなりません。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 62,
+        "category": "Nouns",
+        "question_text": "The ____ of the project is still under discussion.",
+        "choices": [
+            "details",
+            "detailed",
+            "detail",
+            "detailing"
+        ],
+        "correct_answer": "details",
+        "explanation": "'details'は「詳細」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 63,
+        "category": "Nouns",
+        "question_text": "She has a strong ____ for success.",
+        "choices": [
+            "determines",
+            "determination",
+            "determine",
+            "determined"
+        ],
+        "correct_answer": "determination",
+        "explanation": "'determination'は「決意」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 64,
+        "category": "Pronouns",
+        "question_text": "Everyone must bring ____ own lunch.",
+        "choices": [
+            "his",
+            "her",
+            "their",
+            "our"
+        ],
+        "correct_answer": "their",
+        "explanation": "'everyone'は単数扱いですが、性別を特定しない場合には'their'が適切です。"
+    },
+    {
+        "id": 65,
+        "category": "Pronouns",
+        "question_text": "Each student must submit ____ assignment by the deadline.",
+        "choices": [
+            "his",
+            "her",
+            "their",
+            "its"
+        ],
+        "correct_answer": "their",
+        "explanation": "'each student'は単数扱いですが、性別を特定しない場合には'their'が適切です。"
+    },
+    {
+        "id": 66,
+        "category": "Pronouns",
+        "question_text": "The team members congratulated ____ on their success.",
+        "choices": [
+            "him",
+            "her",
+            "themselves",
+            "itself"
+        ],
+        "correct_answer": "themselves",
+        "explanation": "'the team members'は複数扱いなので'themselves'が適切です。"
+    },
+    {
+        "id": 67,
+        "category": "Comparatives and Superlatives",
+        "question_text": "This is the ____ car I have ever driven.",
+        "choices": [
+            "fast",
+            "faster",
+            "fastest",
+            "more fast"
+        ],
+        "correct_answer": "fastest",
+        "explanation": "'the fastest'は最上級を表し、「今まで運転した中で一番速い車」という意味になります。"
+    },
+    {
+        "id": 68,
+        "category": "Comparatives and Superlatives",
+        "question_text": "She is ____ than her sister.",
+        "choices": [
+            "tall",
+            "taller",
+            "tallest",
+            "more tall"
+        ],
+        "correct_answer": "taller",
+        "explanation": "比較級を表すためには'taller'が適切です。'more tall'は不自然な表現です。"
+    },
+    {
+        "id": 69,
+        "category": "Comparatives and Superlatives",
+        "question_text": "This problem is ____ than I thought.",
+        "choices": [
+            "difficult",
+            "more difficult",
+            "most difficult",
+            "difficulty"
+        ],
+        "correct_answer": "more difficult",
+        "explanation": "比較級を表すためには'more difficult'が適切です。'most difficult'は最上級であり、文脈に合いません。"
+    },
+    {
+        "id": 70,
+        "category": "Vocabulary",
+        "question_text": "The company will ____ a new product next month.",
+        "choices": [
+            "launch",
+            "lunch",
+            "launch",
+            "learn"
+        ],
+        "correct_answer": "launch",
+        "explanation": "'launch'は「発売する」という意味です。'lunch'は「昼食」を意味し、'learn'は「学ぶ」という意味なので文脈に合いません。"
+    },
+    {
+        "id": 71,
+        "category": "Vocabulary",
+        "question_text": "The new policy will be ____ next week.",
+        "choices": [
+            "implemented",
+            "implement",
+            "implementing",
+            "implementation"
+        ],
+        "correct_answer": "implemented",
+        "explanation": "'implemented'は「実施する」という意味です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 72,
+        "category": "Vocabulary",
+        "question_text": "She decided to ____ her resignation.",
+        "choices": [
+            "submit",
+            "submitted",
+            "submitting",
+            "submission"
+        ],
+        "correct_answer": "submit",
+        "explanation": "'submit'は「提出する」という意味です。'submitted'は過去形、'submitting'は現在分詞、'submission'は名詞であり、文脈に合いません。"
+    },
+    {
+        "id": 73,
+        "category": "Verb Tense and Form",
+        "question_text": "By the time the concert started, all the tickets ____ sold out.",
+        "choices": [
+            "were",
+            "had been",
+            "are",
+            "will be"
+        ],
+        "correct_answer": "had been",
+        "explanation": "過去完了形の'had been'が正解です。'By the time'の後には過去完了形が使われます。他の選択肢は現在形や未来形であり、文脈に合いません。"
+    },
+    {
+        "id": 74,
+        "category": "Verb Tense and Form",
+        "question_text": "If I ____ enough money, I would travel around the world.",
+        "choices": [
+            "have",
+            "had",
+            "will have",
+            "would have"
+        ],
+        "correct_answer": "had",
+        "explanation": "仮定法過去を使っているため、'had'が正解です。'would'は既に使われているので、他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 75,
+        "category": "Verb Tense and Form",
+        "question_text": "She ____ for the company for five years before she decided to leave.",
+        "choices": [
+            "worked",
+            "has worked",
+            "had worked",
+            "works"
+        ],
+        "correct_answer": "had worked",
+        "explanation": "過去完了形の'had worked'が正解です。他の選択肢は現在形や過去形であり、文脈に合いません。"
+    },
+    {
+        "id": 76,
+        "category": "Prepositions",
+        "question_text": "The meeting will be held ____ the main conference room.",
+        "choices": [
+            "at",
+            "in",
+            "on",
+            "to"
+        ],
+        "correct_answer": "in",
+        "explanation": "'in the main conference room'は「主会議室で」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 77,
+        "category": "Prepositions",
+        "question_text": "He is responsible ____ managing the team.",
+        "choices": [
+            "for",
+            "of",
+            "to",
+            "with"
+        ],
+        "correct_answer": "for",
+        "explanation": "'responsible for'は「担当している」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 78,
+        "category": "Prepositions",
+        "question_text": "The report was submitted ____ the deadline.",
+        "choices": [
+            "before",
+            "at",
+            "on",
+            "to"
+        ],
+        "correct_answer": "before",
+        "explanation": "'before the deadline'は「締め切り前に」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 79,
+        "category": "Relative Pronouns",
+        "question_text": "The person ____ car was stolen reported it to the police.",
+        "choices": [
+            "who",
+            "whom",
+            "whose",
+            "which"
+        ],
+        "correct_answer": "whose",
+        "explanation": "'whose'は所有を表します。'who', 'whom', 'which'は文脈に合いません。"
+    },
+    {
+        "id": 80,
+        "category": "Relative Pronouns",
+        "question_text": "The woman ____ you met yesterday is my boss.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "whom",
+        "explanation": "先行詞が人なので'relative pronoun'は'whom'です。'who'は主格なので、'which'と'whose'は文脈に合いません。"
+    },
+    {
+        "id": 81,
+        "category": "Relative Pronouns",
+        "question_text": "The company ____ products are popular worldwide is expanding.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "whose",
+        "explanation": "'whose'は所有を表します。'who', 'whom', 'which'は文脈に合いません。"
+    },
+    {
+        "id": 82,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "I will call you ____ I arrive at the airport.",
+        "choices": [
+            "after",
+            "but",
+            "although",
+            "because"
+        ],
+        "correct_answer": "after",
+        "explanation": "'after'は「後で」を意味し、時間の順序を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 83,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "We can start the meeting ____ everyone arrives.",
+        "choices": [
+            "when",
+            "but",
+            "if",
+            "although"
+        ],
+        "correct_answer": "when",
+        "explanation": "'when'は「～する時」を意味し、時間を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 84,
+        "category": "Conjunctions and Adverbs",
+        "question_text": "She is tired, ____ she will still attend the meeting.",
+        "choices": [
+            "but",
+            "so",
+            "because",
+            "although"
+        ],
+        "correct_answer": "but",
+        "explanation": "'but'は「しかし」を意味し、対比を表します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 85,
+        "category": "Adjectives and Adverbs",
+        "question_text": "He runs ____ fast as his brother.",
+        "choices": [
+            "as",
+            "so",
+            "very",
+            "more"
+        ],
+        "correct_answer": "as",
+        "explanation": "'as fast as'は「同じくらい速く」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 86,
+        "category": "Adjectives and Adverbs",
+        "question_text": "The movie was ____ interesting that I watched it twice.",
+        "choices": [
+            "so",
+            "such",
+            "very",
+            "too"
+        ],
+        "correct_answer": "so",
+        "explanation": "'so interesting'は「とても興味深い」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 87,
+        "category": "Adjectives and Adverbs",
+        "question_text": "She speaks English ____ than I do.",
+        "choices": [
+            "good",
+            "better",
+            "best",
+            "well"
+        ],
+        "correct_answer": "better",
+        "explanation": "比較級を表すためには'better'が適切です。'good'は形容詞、'best'は最上級、'well'は文脈に合いません。"
+    },
+    {
+        "id": 88,
+        "category": "Nouns",
+        "question_text": "The ____ of the project is confidential.",
+        "choices": [
+            "details",
+            "detailed",
+            "detail",
+            "detailing"
+        ],
+        "correct_answer": "details",
+        "explanation": "'details'は「詳細」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 89,
+        "category": "Nouns",
+        "question_text": "She has a strong ____ to succeed.",
+        "choices": [
+            "determines",
+            "determination",
+            "determine",
+            "determined"
+        ],
+        "correct_answer": "determination",
+        "explanation": "'determination'は「決意」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 90,
+        "category": "Nouns",
+        "question_text": "The ____ of the situation is unclear.",
+        "choices": [
+            "complex",
+            "complexity",
+            "complexities",
+            "complicated"
+        ],
+        "correct_answer": "complexity",
+        "explanation": "'complexity'は「複雑さ」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 91,
+        "category": "Pronouns",
+        "question_text": "Each employee must wear ____ ID badge.",
+        "choices": [
+            "his",
+            "her",
+            "their",
+            "our"
+        ],
+        "correct_answer": "their",
+        "explanation": "'each employee'は単数扱いですが、性別を特定しない場合には'their'が適切です。"
+    },
+    {
+        "id": 92,
+        "category": "Pronouns",
+        "question_text": "The students helped ____ clean the classroom.",
+        "choices": [
+            "themselves",
+            "each other",
+            "one another",
+            "all"
+        ],
+        "correct_answer": "each other",
+        "explanation": "'each other'は「お互いに」を意味します。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 93,
+        "category": "Pronouns",
+        "question_text": "The cat cleaned ____ fur.",
+        "choices": [
+            "his",
+            "her",
+            "its",
+            "their"
+        ],
+        "correct_answer": "its",
+        "explanation": "'the cat'は単数扱いなので'its'が適切です。"
+    },
+    {
+        "id": 94,
+        "category": "Comparatives and Superlatives",
+        "question_text": "This is the ____ restaurant in town.",
+        "choices": [
+            "good",
+            "better",
+            "best",
+            "most good"
+        ],
+        "correct_answer": "best",
+        "explanation": "'the best'は最上級を表し、「町で一番のレストラン」という意味になります。"
+    },
+    {
+        "id": 95,
+        "category": "Comparatives and Superlatives",
+        "question_text": "She is ____ than her colleague.",
+        "choices": [
+            "intelligent",
+            "more intelligent",
+            "most intelligent",
+            "intelligently"
+        ],
+        "correct_answer": "more intelligent",
+        "explanation": "比較級を表すためには'more intelligent'が適切です。'most intelligent'は最上級であり、文脈に合いません。"
+    },
+    {
+        "id": 96,
+        "category": "Comparatives and Superlatives",
+        "question_text": "The problem is ____ than we expected.",
+        "choices": [
+            "serious",
+            "more serious",
+            "most serious",
+            "seriously"
+        ],
+        "correct_answer": "more serious",
+        "explanation": "比較級を表すためには'more serious'が適切です。'most serious'は最上級であり、文脈に合いません。"
+    },
+    {
+        "id": 97,
+        "category": "Vocabulary",
+        "question_text": "The project was ____ successfully.",
+        "choices": [
+            "completed",
+            "completes",
+            "completing",
+            "completion"
+        ],
+        "correct_answer": "completed",
+        "explanation": "'completed'は「完了する」という意味です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 98,
+        "category": "Vocabulary",
+        "question_text": "The new system will be ____ next month.",
+        "choices": [
+            "implemented",
+            "implementing",
+            "implements",
+            "implementation"
+        ],
+        "correct_answer": "implemented",
+        "explanation": "'implemented'は「実施する」という意味です。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 99,
+        "category": "Vocabulary",
+        "question_text": "She decided to ____ her resignation.",
+        "choices": [
+            "submit",
+            "submitted",
+            "submitting",
+            "submission"
+        ],
+        "correct_answer": "submit",
+        "explanation": "'submit'は「提出する」という意味です。'submitted'は過去形、'submitting'は現在分詞、'submission'は名詞であり、文脈に合いません。"
+    },
+    {
+        "id": 100,
+        "category": "Verb Tense and Form",
+        "question_text": "If I ____ the opportunity, I would have taken it.",
+        "choices": [
+            "have",
+            "had",
+            "had had",
+            "would have"
+        ],
+        "correct_answer": "had had",
+        "explanation": "仮定法過去完了を使っているため、'had had'が正解です。'would have'は既に使われているので、他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 101,
+        "category": "Verb Tense and Form",
+        "question_text": "By the time the train arrived, we ____ for an hour.",
+        "choices": [
+            "wait",
+            "waiting",
+            "waited",
+            "had been waiting"
+        ],
+        "correct_answer": "had been waiting",
+        "explanation": "過去完了進行形の'had been waiting'が正解です。'By the time'の後には過去完了形が使われます。他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 102,
+        "category": "Verb Tense and Form",
+        "question_text": "If she ____ the time, she would finish the project.",
+        "choices": [
+            "has",
+            "had",
+            "will have",
+            "would have"
+        ],
+        "correct_answer": "had",
+        "explanation": "仮定法過去を使っているため、'had'が正解です。'would'は既に使われているので、他の選択肢は文脈に合いません。"
+    },
+    {
+        "id": 103,
+        "category": "Prepositions",
+        "question_text": "The seminar will be held ____ the main hall.",
+        "choices": [
+            "at",
+            "in",
+            "on",
+            "to"
+        ],
+        "correct_answer": "in",
+        "explanation": "'in the main hall'は「主ホールで」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 104,
+        "category": "Prepositions",
+        "question_text": "He is interested ____ learning new languages.",
+        "choices": [
+            "in",
+            "on",
+            "at",
+            "of"
+        ],
+        "correct_answer": "in",
+        "explanation": "'interested in'は「興味がある」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 105,
+        "category": "Prepositions",
+        "question_text": "The report was submitted ____ the deadline.",
+        "choices": [
+            "before",
+            "at",
+            "on",
+            "to"
+        ],
+        "correct_answer": "before",
+        "explanation": "'before the deadline'は「締め切り前に」を意味します。他の前置詞は文脈に合いません。"
+    },
+    {
+        "id": 106,
+        "category": "Relative Pronouns",
+        "question_text": "The person ____ car was stolen reported it to the police.",
+        "choices": [
+            "who",
+            "whom",
+            "whose",
+            "which"
+        ],
+        "correct_answer": "whose",
+        "explanation": "'whose'は所有を表します。'who', 'whom', 'which'は文脈に合いません。"
+    },
+    {
+        "id": 107,
+        "category": "Relative Pronouns",
+        "question_text": "The woman ____ you met yesterday is my boss.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "whom",
+        "explanation": "先行詞が人なので'relative pronoun'は'whom'です。'who'は主格なので、'which'と'whose'は文脈に合いません。"
+    },
+    {
+        "id": 108,
+        "category": "Relative Pronouns",
+        "question_text": "The company ____ products are popular worldwide is expanding.",
+        "choices": [
+            "who",
+            "whom",
+            "which",
+            "whose"
+        ],
+        "correct_answer": "whose",
+        "explanation": "'whose'は所有を表します。'who', 'whom', 'which'は文脈に合いません。"
+    }
+]
